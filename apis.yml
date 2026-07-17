@@ -1,0 +1,68 @@
+aid: addition
+name: Addition
+description: >-
+  Addition is a New York City-based venture capital firm founded in 2020 by Lee
+  Fixel, the former head of Tiger Global Management's private equity business.
+  The firm invests in founder-led, technology-enabled companies across multiple
+  stages, allocating roughly one-third of its capital to early-stage
+  investments and the remainder to growth-stage opportunities. Sectors of focus
+  include software and SaaS, fintech and payments, artificial intelligence and
+  machine learning, developer tools and infrastructure, cybersecurity,
+  consumer, logistics, and clean energy. Typical checks range from about $10M to
+  $200M, with a reported sweet spot near $30M-$50M. Addition operates a
+  streamlined solo-GP model with Fixel as sole managing partner making final
+  investment decisions, enabling fast conviction. Across Addition One through
+  Addition Five (2020-2023) the firm raised roughly $7B-$7.3B in committed
+  capital. Notable investments include Stripe, Snyk, Hugging Face, Chainalysis,
+  Navan, dLocal, Delhivery, Airwallex, Freshworks, Warby Parker, and Lyra
+  Health.
+x-type: venture-capital
+x-category: Venture Capital
+image: ''
+tags:
+  - Venture Capital
+  - Early Stage
+  - Growth Stage
+  - Fintech
+  - Artificial Intelligence
+  - Developer Tools
+  - Software
+  - New York
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://addition.com
+  - type: Portfolio
+    url: https://addition.com
+  - type: Portfolio
+    url: portfolio/addition-portfolio.yml
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/addition-7af4
+  - type: Team
+    url: team/addition-team.yml
+  - type: Features
+    data:
+      - 'Stage: Early stage and growth stage (multi-stage)'
+      - 'Typical check: ~$10M-$200M (sweet spot ~$30M-$50M)'
+      - 'Sectors: software/SaaS, fintech, AI/ML, developer tools, cybersecurity, consumer, logistics, clean energy'
+      - 'Geography: United States and global'
+      - 'Committed capital: ~$7B-$7.3B across five funds (2020-2023)'
+      - 'Founded: 2020'
+      - 'HQ: New York City, NY (Park Avenue Tower)'
+      - 'Founder / sole managing partner: Lee Fixel (ex-Tiger Global)'
+    sources:
+      - https://en.wikipedia.org/wiki/Addition_(investment_firm)
+      - https://www.crunchbase.com/organization/addition-7af4
+      - https://techcrunch.com/2023/06/14/lee-fixel-addition-fund/
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Addition
+    url: https://addition.com

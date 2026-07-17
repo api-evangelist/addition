@@ -1,0 +1,272 @@
+generated: '2026-07-17'
+method: searched
+source: Addition publishes no public portfolio page (addition.com is a single minimal page). This is a
+  curated capture of confirmed Addition investments compiled from public sources (Wikipedia, Crunchbase,
+  CB Insights, VC-Mapping, sparkco, and company funding announcements); it is not the firm's full ~172-investment
+  history.
+summary:
+  portfolio_total: 24
+  in_network: 17
+  api_providers: 11
+  missing: 7
+  stubs_created: 0
+companies:
+- name: Stripe
+  url: https://stripe.com
+  description: Online payments and financial infrastructure platform.
+  sector: fintech
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Addition_(investment_firm)
+  slug: stripe
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Snyk
+  url: https://snyk.io
+  description: Developer-first security platform for code, dependencies, and cloud.
+  sector: developer-security
+  stage: growth
+  status: active
+  source: https://sparkco.ai/blog/addition
+  slug: snyk
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Hugging Face
+  url: https://huggingface.co
+  description: Platform and community for machine learning models and datasets.
+  sector: ai-ml
+  stage: series-d
+  status: active
+  source: https://en.wikipedia.org/wiki/Addition_(investment_firm)
+  slug: 1x-robotics
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Chainalysis
+  url: https://www.chainalysis.com
+  description: Blockchain data and cryptocurrency compliance analytics.
+  sector: blockchain-analytics
+  stage: growth
+  status: active
+  source: https://en.wikipedia.org/wiki/Addition_(investment_firm)
+  slug: chainalysis
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Navan
+  url: https://navan.com
+  description: Business travel and expense management software (formerly TripActions).
+  sector: travel-expense-software
+  stage: ipo
+  status: ipo
+  source: https://www.cbinsights.com/investor/addition
+  slug: navan
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: dLocal
+  url: https://dlocal.com
+  description: Cross-border payments platform for emerging markets.
+  sector: fintech
+  stage: ipo
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Addition_(investment_firm)
+  slug: dlocal
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Delhivery
+  url: https://www.delhivery.com
+  description: Indian logistics and supply-chain services company.
+  sector: logistics
+  stage: ipo
+  status: ipo
+  source: https://en.wikipedia.org/wiki/Addition_(investment_firm)
+  in_network: false
+  is_api_provider: false
+  suggested_slug: delhivery
+- name: Airwallex
+  url: https://www.airwallex.com
+  description: Global business payments and financial operations platform.
+  sector: fintech
+  stage: series-h
+  status: active
+  source: https://www.cbinsights.com/investor/addition
+  slug: airwallex
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Freshworks
+  url: https://www.freshworks.com
+  description: Customer and employee engagement SaaS suite.
+  sector: saas
+  stage: ipo
+  status: ipo
+  source: https://vc-mapping.gilion.com/vc-firms/addition
+  slug: freshworks
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Warby Parker
+  url: https://www.warbyparker.com
+  description: Direct-to-consumer eyewear brand and retailer.
+  sector: consumer
+  stage: ipo
+  status: ipo
+  source: https://sparkco.ai/blog/addition
+  in_network: false
+  is_api_provider: false
+  suggested_slug: warby-parker
+- name: Allbirds
+  url: https://www.allbirds.com
+  description: Sustainable footwear and apparel brand.
+  sector: consumer
+  stage: ipo
+  status: ipo
+  source: https://vc-mapping.gilion.com/vc-firms/addition
+  in_network: false
+  is_api_provider: false
+  suggested_slug: allbirds
+- name: Lyra Health
+  url: https://www.lyrahealth.com
+  description: Mental health benefits platform for employers.
+  sector: healthtech
+  stage: growth
+  status: active
+  source: https://sparkco.ai/blog/addition
+  slug: lyra-health
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Alchemy
+  url: https://www.alchemy.com
+  description: Web3 developer platform and blockchain infrastructure.
+  sector: developer-infrastructure
+  stage: series-c
+  status: active
+  source: https://superscout.co/investor/addition
+  slug: alchemy
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Zap Energy
+  url: https://www.zapenergy.com
+  description: Fusion energy technology company.
+  sector: clean-energy
+  stage: series-c
+  status: active
+  source: https://en.wikipedia.org/wiki/Addition_(investment_firm)
+  slug: zap-energy
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Snorkel AI
+  url: https://snorkel.ai
+  description: Data-centric AI development and labeling platform.
+  sector: ai-ml
+  stage: series-d
+  status: active
+  source: https://sparkco.ai/blog/addition
+  slug: snorkel-ai
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Base Power
+  url: https://www.basepowercompany.com
+  description: Residential battery and distributed energy company.
+  sector: clean-energy
+  stage: series-b
+  status: active
+  source: https://sparkco.ai/blog/addition
+  in_network: false
+  is_api_provider: false
+  suggested_slug: base-power
+- name: Adept AI
+  url: https://www.adept.ai
+  description: AI models for agents that act on software (acqui-hired by Amazon).
+  sector: ai-ml
+  stage: series-b
+  status: acquired
+  source: https://sparkco.ai/blog/addition
+  slug: adept
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: OctoAI
+  url: https://octo.ai
+  description: AI model deployment and inference infrastructure (acquired by NVIDIA).
+  sector: ai-infrastructure
+  stage: acquired
+  status: acquired
+  source: https://sparkco.ai/blog/addition
+  slug: octoai
+  in_network: true
+  is_api_provider: false
+  matched_by: domain
+- name: Chronosphere
+  url: https://chronosphere.io
+  description: Cloud-native observability and monitoring platform.
+  sector: observability
+  stage: growth
+  status: active
+  source: https://www.cbinsights.com/investor/addition
+  slug: chronosphere
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Groq
+  url: https://groq.com
+  description: AI inference chips and low-latency LLM inference cloud.
+  sector: ai-infrastructure
+  stage: growth
+  status: active
+  source: https://www.cbinsights.com/investor/addition
+  slug: groq
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Xscape Photonics
+  url: https://www.xscapephotonics.com
+  description: Photonic interconnects for AI data center networks.
+  sector: ai-infrastructure
+  stage: series-a
+  status: active
+  lead: true
+  source: https://www.businesswire.com/news/home/20260311692947/en/
+  in_network: false
+  is_api_provider: false
+  suggested_slug: xscape-photonics
+- name: SuperOps
+  url: https://superops.com
+  description: AI-powered IT management and PSA/RMM platform for MSPs.
+  sector: it-management-software
+  stage: series-a
+  status: active
+  lead: true
+  source: https://www.channele2e.com/news/superops-ai-series-a-funding
+  in_network: false
+  is_api_provider: false
+  suggested_slug: superops
+- name: Stedi
+  url: https://www.stedi.com
+  description: EDI and B2B data infrastructure API platform.
+  sector: developer-infrastructure
+  stage: series-c
+  status: active
+  source: https://www.cbinsights.com/investor/addition
+  slug: stedi
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Chapter
+  url: https://askchapter.org
+  description: Medicare advisory and enrollment platform for retirees.
+  sector: healthtech
+  stage: series-e
+  status: active
+  source: https://www.cbinsights.com/investor/addition
+  in_network: false
+  is_api_provider: false
+  suggested_slug: chapter
