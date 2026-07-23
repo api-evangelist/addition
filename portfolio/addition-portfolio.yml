@@ -6,9 +6,9 @@ source: Addition publishes no public portfolio page (addition.com is a single mi
   history.
 summary:
   portfolio_total: 24
-  in_network: 17
-  api_providers: 11
-  missing: 7
+  in_network: 24
+  api_providers: 10
+  missing: 0
   stubs_created: 0
 companies:
 - name: Stripe
@@ -84,9 +84,10 @@ companies:
   stage: ipo
   status: ipo
   source: https://en.wikipedia.org/wiki/Addition_(investment_firm)
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: delhivery
+  slug: delhivery
+  matched_by: domain
 - name: Airwallex
   url: https://www.airwallex.com
   description: Global business payments and financial operations platform.
@@ -116,9 +117,10 @@ companies:
   stage: ipo
   status: ipo
   source: https://sparkco.ai/blog/addition
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: warby-parker
+  slug: warby-parker
+  matched_by: domain
 - name: Allbirds
   url: https://www.allbirds.com
   description: Sustainable footwear and apparel brand.
@@ -126,9 +128,10 @@ companies:
   stage: ipo
   status: ipo
   source: https://vc-mapping.gilion.com/vc-firms/addition
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: allbirds
+  slug: allbirds
+  matched_by: domain
 - name: Lyra Health
   url: https://www.lyrahealth.com
   description: Mental health benefits platform for employers.
@@ -171,7 +174,7 @@ companies:
   source: https://sparkco.ai/blog/addition
   slug: snorkel-ai
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Base Power
   url: https://www.basepowercompany.com
@@ -180,9 +183,10 @@ companies:
   stage: series-b
   status: active
   source: https://sparkco.ai/blog/addition
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: base-power
+  slug: base-power
+  matched_by: domain
 - name: Adept AI
   url: https://www.adept.ai
   description: AI models for agents that act on software (acqui-hired by Amazon).
@@ -235,9 +239,10 @@ companies:
   status: active
   lead: true
   source: https://www.businesswire.com/news/home/20260311692947/en/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: xscape-photonics
+  slug: xscape-photonics
+  matched_by: domain
 - name: SuperOps
   url: https://superops.com
   description: AI-powered IT management and PSA/RMM platform for MSPs.
@@ -246,9 +251,10 @@ companies:
   status: active
   lead: true
   source: https://www.channele2e.com/news/superops-ai-series-a-funding
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: superops
+  slug: superops
+  matched_by: domain
 - name: Stedi
   url: https://www.stedi.com
   description: EDI and B2B data infrastructure API platform.
@@ -267,6 +273,7 @@ companies:
   stage: series-e
   status: active
   source: https://www.cbinsights.com/investor/addition
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: chapter
+  slug: chapter
+  matched_by: domain
