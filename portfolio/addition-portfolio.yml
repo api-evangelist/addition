@@ -40,7 +40,7 @@ companies:
   stage: series-d
   status: active
   source: https://en.wikipedia.org/wiki/Addition_(investment_firm)
-  slug: 1x-robotics
+  slug: 1x-technologies
   in_network: true
   is_api_provider: false
   matched_by: domain
